@@ -10,7 +10,6 @@ canvas {
   font-size: 50px;
   color: rgba(255,255,255,0.5);
   z-index: 999;
-/*   top: 66%; */
   left: 75px;
 }
 
@@ -35,7 +34,7 @@ canvas {
 
 .text {
   position: absolute;
-  left: calc(50% - 75px);
+  left: calc(50% - 125px);
   top: 50%;
   height: 120px;
   text-align: center;
