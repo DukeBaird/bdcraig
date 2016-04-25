@@ -1,0 +1,45 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.icons {
+  position: relative;
+  font-size: 50px;
+  color: rgba(255,255,255,0.5);
+  z-index: 999;
+/*   top: 66%; */
+  left: 75px;
+}
+
+.gitIcon {
+  position: absolute;
+  left: 50px;
+  top: 4px;
+}
+
+.fa:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+.lnIcon {
+  position: absolute;
+  left: -50px;
+}
+
+.enterIcon {
+  position: absolute;
+}
+
+.text {
+  position: absolute;
+  left: calc(50% - 75px);
+  top: 50%;
+  height: 120px;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(255,255,255,0.8);
+  padding-top: 20px;
+}
